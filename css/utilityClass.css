@@ -1,0 +1,59 @@
+
+:root{
+    --primary:#E91E63;
+    --secondary:#FFFFFF;
+    --tarnary:#BDBDBD;
+    --dark: #000000;
+
+    --danger1:#C2185B;
+    --danger2:#F5F5F5;
+
+    --font1:'Roboto', sans-serif;
+    --font2:'Inconsolata', monosp;
+    --font3:'Baloo Bhai 2' cursive;
+
+}
+
+ .max-width-1{
+     max-width: 80vw;
+ }
+ .max-width-2{
+     max-width: 70vw;
+ }
+ .margin-auto{
+     margin: auto;
+ }
+ .btn{
+    padding: 0.35rem 0.60rem;
+    font-size: 1rem;
+     font-family: var(--font1);
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+
+ .btn-primary{
+    background-color: var(--primary);
+    color: var(--dark);
+    transition: all 0.3s ease-in-out;
+
+  }
+  .btn-primary:hover{
+    background: transparent;
+    border: 1px solid var(--dark) ;
+   color: var(--dark);
+  }
+  .btn-secondary{
+   background: transparent;
+   border-color: var(--dark);
+   color:  var(--dark);
+  }
+  .btn-secondary:hover{
+    background-color:var(--primary) ;
+    color:  var(--dark);
+  }

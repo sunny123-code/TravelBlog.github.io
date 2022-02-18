@@ -1,0 +1,47 @@
+.blog-post{
+    padding: 3rem 1rem;
+    background-color: var( --danger2);
+}
+.blog-post-heading{
+    font-size: 1.30rem;
+    text-align: center;
+    padding: 0.80rem 1rem;
+    
+    
+}
+
+.blog-post-heading h1{
+    font-family: var(--font1);
+    font-weight: 400;
+}
+.blog-post-author-icon{
+
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.45rem;
+}
+.blog-post-author-icon h5{
+   font-family: var(--font3);
+   margin-left: 3rem;
+   
+}
+.blog-post-author-icon p{
+    font-family: var(--font3);
+    margin-left: 3rem;
+}
+.blog-icons{
+    margin-right: 2rem;
+}
+.blog-icons a{
+    color: var(--dark);
+    padding: 0rem 0.23rem;
+    align-self: center;
+    text-decoration: none;
+}
+.blog-icons a:hover{
+    color: var(--primary);
+}
+.blog-post-para{
+    padding: 0rem 2rem;
+}
